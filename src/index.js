@@ -6,7 +6,12 @@ if ([a, p, b].filter(Boolean).length !== 3) {
   throw new Error('Please give me three characters!');
 }
 
-if (Number.isFinite(c) || c < 0 || c > 100) {
+const currentProgress = Number(c);
+if (
+  !Number.isFinite(currentProgress) ||
+  currentProgress < 0 ||
+  currentProgress > 100
+) {
   throw new Error('Please, give me a number in [0, 100] as well');
 }
 
