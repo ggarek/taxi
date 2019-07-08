@@ -10,12 +10,13 @@
     "src/index.js"
   ],
   "bin": {
-    "taxi" : "./src/index.js"
+    "taxi": "./src/index.js"
   },
   "keywords": [
     "progress",
     "fun"
   ],
   "author": "Igor Ovsiannikov <garek@mail.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
