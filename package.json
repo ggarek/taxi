@@ -9,7 +9,9 @@
   "files": [
     "src/index.js"
   ],
-  { "bin" : { "taxi" : "./src/index.js" } },
+  "bin": {
+    "taxi" : "./src/index.js"
+  },
   "keywords": [
     "progress",
     "fun"
