@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const [a,p,b,c] = process.argv.slice(2);
 
 if ([a,p,b].filter(Boolean).length !== 3) {
