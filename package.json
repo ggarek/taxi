@@ -1,0 +1,15 @@
+{
+  "name": "@ggarek/taxi",
+  "version": "0.1.0",
+  "description": "Generate a snapshot of progress estimation with emoji just for fun",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progress",
+    "fun"
+  ],
+  "author": "Igor Ovsiannikov <garek@mail.ru>",
+  "license": "MIT"
+}
